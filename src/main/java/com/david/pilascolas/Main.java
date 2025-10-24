@@ -3,6 +3,7 @@ package com.david.pilascolas;
 import java.util.Scanner;
 
 /** Menú principal */
+
 public class Main {
     public static void main(String[] args) {
         Scanner leer = new Scanner(System.in);
@@ -29,13 +30,11 @@ public class Main {
                     break;
 
                 case 3:
-                    // Aquí llamaremos al ejercicio 3 cuando esté hecho
-                    System.out.println("Ejercicio 3 aún no implementado.");
+                    Ejercicio3_Palindromo.ejecutar();
                     break;
 
                 case 4:
-                    // Aquí llamaremos al ejercicio 4 cuando esté hecho
-                    System.out.println("Ejercicio 4 aún no implementado.");
+                    Ejercicio4_Binario.ejecutar();
                     break;
 
                 case 5:
